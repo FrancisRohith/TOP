@@ -1,0 +1,17 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.content{
+  width: 50rem;
+  align-self: center;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
+.header{
+  padding: 20px;
+  border-bottom: 2px solid rgb(128, 128, 128);
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+}

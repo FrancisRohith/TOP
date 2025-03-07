@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="slide">
+            <div class="caption1">caption 1</div>
+            <img src="bgpic.jpg" alt="">
+        </div>
+        <div class="slide">
+            <div class="caption2">caption 2</div>
+            <img src="download (1).jpeg" alt="">
+        </div>
+        <div class="slide">
+            <div class="caption3">caption 3 </div>
+            <img src="download.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <div class="caption4">caption 4</div>
+            <img src="download (2).jpeg" alt="">
+        </div>
+        <a class="prev" onclick="plus_img(-1)">&#10094;</a>
+        <a class="next" onclick="plus_img(1)">&#10095;</a>
+      </div>
+      <div>
+        
+        <span class="dot" onclick="currentslide(1)"></span>
+        <span class="dot" onclick="currentslide(2)"></span>
+        <span class="dot" onclick="currentslide(3)"></span>
+        <span class="dot" onclick="currentslide(4)"></span>
+      </div>
+      <script src="script.js"></script>
+      
+</body>
+</html>

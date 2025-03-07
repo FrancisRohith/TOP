@@ -1,0 +1,144 @@
+
+.section1{
+    position: relative;
+    background-color: rgb(0, 204, 255);
+    display: flex;
+    min-width: 320px;
+    padding: 4rem;
+}
+i{
+    font-size: 2.5rem;
+}
+
+.image-container{
+    position: relative;
+    color: white;
+    z-index: 2;
+}
+.profile{
+    width: 30rem;
+    height: 100%;
+}
+.name{
+    position: absolute;
+    bottom: 2%;
+    text-align: center;
+    width: 100%;
+}
+h1{
+    font-weight: 500;
+    font-size: 4rem;
+}
+h2{
+    font-weight: 500;
+    font-size: 4rem;
+}
+h3{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+
+.about-me{
+    min-width: 30rem;
+    padding: 2rem;
+    background-color: white;
+    margin: 3rem 0;
+    box-shadow: 1px 1px 5px gray;
+    border: 1px solid black;
+    z-index: 1;
+}
+.about-me-para{
+    font-size: 2rem;
+}
+
+.my-works{
+    padding:0 3rem 3rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 25px 15px;
+}
+#project1>.project-img{
+    background-color: red;
+}
+#project2>.project-img{
+    background-color: violet;
+}
+#project3>.project-img{
+    background-color: lightgreen;
+}
+#project4>.project-img{
+    background-color: lightpink;
+}
+#project5>.project-img{
+    background-color: orange;
+}
+#project6>.project-img{
+    background-color: lightblue;
+}
+.project{
+    box-shadow: 1px 1px 5px gray;
+    width: 25rem;
+    height: 22rem;
+}
+.project-img{
+    color: white;
+    height: 12rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.project-details{
+    padding: 1rem;
+}
+.project-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-header>.link>i{
+    font-size: 2rem;
+}
+
+.section3{
+    background-color: rgb(0, 204, 255);
+    color: white;
+    display: flex;
+    min-width: 320px;
+    gap: 1rem;
+    padding: 3rem;
+    justify-content: space-between;
+}
+.phone,.email{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2.5rem;
+}
+.contact-me>.links{
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    color: black;
+}
+.contact-me>p,.phone>p,.email>p{
+    font-size: 2rem;
+}
+.phone>i,.email>i{
+    font-size: 2.5rem;
+}
+
+@media (max-width: 415px) {
+    .section1,.section3{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-me{
+        
+    }
+}

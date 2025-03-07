@@ -1,0 +1,77 @@
+.pomodoro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pomodoroTime{
+    font-size: 5rem;
+    font-weight: 100;
+}
+.pomodoroButton{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.pomodoroButton button{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: monospace;
+    border-radius: 5px;
+}
+.pomodoroButton .start{
+    background-color: #4caf50;
+    color: #ffff;
+}
+.pomodoroButton .pause{
+    background-color: #f44336;
+    color: #ffff;
+}
+.pomodoroButton .reset{
+    background-color: #2196f3;
+    color: #ffff;
+}
+.pomodoroSettings{
+    margin-top: 1rem;
+    justify-content: center;
+}
+.pomodoroSettings label{
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+.pomodoroSettings input{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 1px solid #feeeee;
+    border-radius: 5px;
+    text-align: center;
+}
+.pomodoroMode{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.pomodoroProgress{
+    width: 300px;
+    height: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(163, 163, 163);
+    border-radius: 100px;
+    overflow: hidden;
+}
+#progress{
+    height: 100%;
+    width: 0%;
+    background-color: #4caf50;
+    transition: width 0.5s ease;
+}
+button:hover{
+    opacity: 0.8;
+}

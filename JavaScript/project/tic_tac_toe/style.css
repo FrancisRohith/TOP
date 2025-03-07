@@ -1,0 +1,67 @@
+.board{
+    background-color: antiquewhite;
+    transition: background-color 0.3s;
+    border: 5px solid brown;
+    border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.box1{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.box2{
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.box3{
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.box4{
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.box5{
+    border: 5px solid black;
+}
+.box6{
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.box7{
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+}
+.box8{
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+}
+.box9{
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+}
+
+.text{
+    display: flex;
+}
+
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,.box8:hover,.box9:hover{
+    background-color: rgb(160, 150, 137);
+}
+
+button{
+    background-color: rgb(112, 54, 0);
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin: 30px;
+    border-radius: 10px;
+}

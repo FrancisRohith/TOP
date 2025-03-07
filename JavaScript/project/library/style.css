@@ -1,0 +1,30 @@
+button{
+    background-color: rgb(105, 33, 0);
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 28px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 5px gray;
+}
+dialog{
+    border: 1px solid gray;
+    outline: none ;
+    border-radius: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.book-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,1fr);
+    border: 1px solid brown;
+    background-color: antiquewhite;
+    margin: 20px;
+    width: 250px;
+    border-radius: 15px;
+}

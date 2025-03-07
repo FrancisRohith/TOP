@@ -1,0 +1,47 @@
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 2;
+}
+.descriptionIn{
+  height: 100px;
+  resize: none;
+}
+label {
+  font-weight: bold;
+  color: rgb(13, 77, 0);
+}
+
+input {
+  outline: none;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  height: 25px;
+}
+
+button {
+  padding: 10px;
+  height: minmax(30px,100%);
+  width: minmax(120px,100%);
+  font-weight: bold;
+  align-self: center;
+  background-color: rgb(145, 0, 102);
+  color: white;
+  border-radius: 5px;
+}
+
+.projectElement{
+  border: 2px solid gray;
+  border-radius: 4px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

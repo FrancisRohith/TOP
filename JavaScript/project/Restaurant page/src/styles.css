@@ -1,0 +1,31 @@
+body{
+    margin: 50px;
+}
+
+nav{
+   
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+button{
+    grid-row: 1/2;
+    background-color: aqua;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#content{
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    background-color: rgb(255, 255, 182);
+    border: 5px solid rgb(121, 82, 0);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+}
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Shadow Generator</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="cssBox.css">
+</head>
+<body>
+    <main class="container">
+        <header><h1>Box Shadow Generator</h1></header>
+        <section class="row_one">
+            <div class="column_one">
+                <h1 class="controls">Controls</h1>
+                <div class="control_group">
+                    <div class="control_header">
+                        <label for="horizontal">Horizontal length</label>
+                        <span class="value_display" id="horizontal_value">0px</span>
+                    </div>
+                    <input type="range" id="horizontal" min="-200" max="200" value="0">
+                </div>
+                <div class="control_group">
+                    <div class="control_header">
+                        <label for="vertical">Vertical length</label>
+                        <span class="value_display" id="vertical_value">0px</span>
+                    </div>
+                    <input type="range" id="vertical" min="-200" max="200" value="0">
+                </div>
+                <div class="control_group">
+                    <div class="control_header">
+                        <label for="blur">Blur radius</label>
+                        <span class="value_display" id="blur_value">0px</span>
+                    </div>
+                    <input type="range" id="blur" min="-200" max="200" value="0">
+                </div>
+                <div class="control_group">
+                    <div class="control_header">
+                        <label for="spread">Spread radius</label>
+                        <span class="value_display" id="spread_value">0px</span>
+                    </div>
+                    <input type="range" id="spread" min="-200" max="200" value="0">
+                </div>
+                <div class="control_group">
+                    <div class="control_header">
+                        <label for="color">Shadow color</label>
+                        <span class="value_display" id="spread_value">#000000</span>
+                    </div>
+                    <div class="color_control_wrap">
+                        <input type="color" id="color" value="#000000">
+                        <input type="range" id="opacity" min="0" max="100" value="25">
+                    </div>
+                   
+                </div>
+                <div class="control_group">
+                    <div class="control_header checkbox_group">
+                        <label for="inset">
+                            <input type="checkbox" id="inset">
+                            <span>Inset Shadow</span>
+                        </label>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="column_two">
+                <h2 class="section_title">Preview</h2>
+                <div class="preview_container">
+                  <div id="box"></div>
+                </div>
+            </div>
+        </section>
+        <section class="row_two">
+            <div class="code_header">
+              <h2 class="section_title">Generated CSS</h2>
+              <button id="copy_button" class="copy_button">Copy</button>
+            </div>
+            <pre id="code"></pre>
+          </section>
+    </main>
+</body>
+</html>
